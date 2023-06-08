@@ -26,7 +26,7 @@ BEGIN
 return result;
 END |
 
-SElECT format_time(seconds) AS result from time; 
+SElECT format_time(seconds) AS result from time;  % 2 = 0; 
 
 -- Выведите только четные числа от 1 до 10.
 -- Пример: 2,4,6,8,10
